@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.timeSlotsPage .container .table td a{
+  cursor:pointer;
+}
+
+.timeSlotsPage .container .table{
+  margin-top:15px
+}
+
+.timeSlotsPage .container .table .titleCell{
+  text-align:center;
+  background: #F5F5DC
+}
+
+.boldLink{
+  font-weight:bold;
+  color:red;
+}
+
+.myModal .overlay{
+  z-index:10;
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  right:0;
+  background:black;
+  opacity:0.3;
+}
+
+.myModal .modalWindow{
+  background:#FFF;
+  width:600px;
+  height:200px;
+  z-index:20;
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px;
+  margin-top: -100px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.show{
+  display:block
+}
+
+.hide{
+  display:none;
+}
+
+.myModal .modalWindow h3{
+  background:#F5F5DC;
+  margin-top:0;
+  padding:15px 15px 5px 15px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.myModal .modalWindow .content{
+  padding:15px
+}
+
+.myModal .modalWindow .content label{
+  width:100px;
+}
+
+.myModal .modalWindow .content input{
+  border:1px solid #a3a392;
+  border-radius: 3px;
+  width:200px
+}
+
+.myModal .modalWindow .content button{
+  border:1px solid #a3a392
+}
+
+.myModal .modalWindow .content button:hover{
+  background:#F5F5DC;
+}
